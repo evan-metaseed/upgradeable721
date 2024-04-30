@@ -1,0 +1,41 @@
+{
+    "name": "hardhat-upgradeable721",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@nomiclabs/buidler": "^1.4.8",
+        "chai": "^4.3.4",
+        "hardhat": "^2.22.2",
+        "hardhat-deploy": "^0.11.37"
+    },
+    "dependencies": {
+        "@nomicfoundation/hardhat-ethers": "^3.0.5",
+        "@openzeppelin/contracts": "^5.0.2",
+        "@openzeppelin/contracts-upgradeable": "^5.0.2",
+        "@openzeppelin/hardhat-upgrades": "^3.0.5",
+        "@openzeppelin/upgrades-core": "^1.32.5",
+        "@uniswap/v2-core": "^1.0.1",
+        "@uniswap/v2-periphery": "^1.1.0-beta.0",
+        "bignumber.js": "^9.0.2",
+        "dotenv": "^16.4.5",
+        "ethers": "^6.11.1",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.2.27",
+        "solc": "^0.8.21"
+    },
+    "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.",
+    "version": "1.0.0",
+    "main": "buidler.config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/evan-metaseed/contract-hardhat/issues"
+    },
+    "homepage": "https://github.com/evan-metaseed/contract-hardhat#readme"
+}
